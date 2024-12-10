@@ -1,0 +1,56 @@
+.accordion-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.faq-card {
+  width: 50vw;
+  border-left: 2px solid rgb(76, 76, 76);
+  list-style: none;
+  padding: 0.5rem 2rem;
+  background-color: rgb(37, 40, 43);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  font-size: medium;
+  gap: 2rem;
+  text-align: justify;
+}
+
+button {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: medium;
+}
+
+.show {
+  background-color: rgb(26, 219, 158);
+}
+
+.show:hover {
+  box-shadow: rgb(76, 216, 172) 0px 1px 2px 2px;
+  color: white;
+}
+
+.close {
+  background-color: rgb(230, 76, 61);
+}
+
+.close:hover {
+  color: white;
+  box-shadow: rgb(222, 93, 82) 0px 1px 2px 2px;
+}
